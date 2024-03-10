@@ -1,0 +1,18 @@
+[package]
+name = "daily_helper"
+authors = ["Louis Latreille <louis_latreille@hotmail.com>"]
+edition = "2018"
+version = "0.1.0"
+description = "A productivity helper for windows"
+license = "MIT"
+repository = "https://github.com/louislatreille/dailyHelper"
+
+[dependencies]
+winrt-notification = "0.5.1"
+chrono = "0.4.19"
+
+[dependencies.windows]
+version = "0.54"
+features = [
+    "Win32_UI_Shell"
+]
