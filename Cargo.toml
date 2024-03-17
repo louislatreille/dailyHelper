@@ -8,8 +8,9 @@ license = "MIT"
 repository = "https://github.com/louislatreille/dailyHelper"
 
 [dependencies]
-winrt-notification = "0.5.1"
+winrt-notification = { git = "https://github.com/Akida31/winrt-notification.git", rev = "083f0d7d9837924c3201887ae2432943291e3b64" }
 chrono = "0.4.19"
+chrono-tz = "0.8.6"
 
 [dependencies.windows]
 version = "0.54"
